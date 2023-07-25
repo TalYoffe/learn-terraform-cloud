@@ -1,6 +1,6 @@
 terraform {
 
- /* cloud {
+  cloud {
     organization = "tal-org-1"
 
     workspaces {
@@ -14,8 +14,6 @@ terraform {
       version = "~> 3.28.0"
     }
   }
-  */
 
   required_version = ">= 0.14.0"
 }
-
